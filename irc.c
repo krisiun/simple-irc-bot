@@ -2,6 +2,7 @@
 #include "irc.h"
 #include <string.h>
 #include <time.h>
+#include <unistd.h>
 
 int irc_connect(irc_t *irc, const char* server, const char* port)
 {
