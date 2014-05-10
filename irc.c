@@ -271,7 +271,7 @@ int irc_reply_message(irc_t *irc, char *irc_nick, char *msg)
    return 0;
 }
 
-int irc_log_message(irc_t *irc, const char* nick, const char* message)
+void irc_log_message(irc_t *irc, const char* nick, const char* message)
 {
    char timestring[128];
    time_t curtime;
