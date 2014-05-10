@@ -1,5 +1,6 @@
 
 CC = gcc
+# CC = clang     # Use this if you want clang instead of gcc 
 
 TARGET = ircbot
 
